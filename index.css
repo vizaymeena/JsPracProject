@@ -315,3 +315,46 @@ ul li {
     object-fit: cover;
     border-radius: 8px;
   }
+
+  
+/* Section Styling */
+#about {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#about .container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  #about h2 {
+    font-size: 2rem;
+  }
+
+  #about p {
+    font-size: 1rem;
+  }
+}
