@@ -337,36 +337,29 @@ ul li {
     border-radius: 8px;
   }
 
-  
-/* Section Styling */
-#about {
-  background-color: #f4f4f4;
-  padding: 50px 0;
+/* About Us Section */
+.about-us {
+  background-color: #e0f7fa; /* Light cyan background */
+  padding: 60px 20px;
   text-align: center;
 }
 
-#about .container {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-#about h2 {
-  font-size: 2.5rem;
-  color: #333;
+.about-us h2 {
+  color: #00796b; /* Teal heading */
+  font-size: 2.5em;
   margin-bottom: 20px;
-  font-family: 'Arial', sans-serif;
 }
 
-#about p {
-  font-size: 1.2rem;
-  color: #555;
+.about-us p {
+  color: #004d40; /* Dark teal text */
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto 20px;
   line-height: 1.6;
-  margin-bottom: 20px;
-  font-family: 'Arial', sans-serif;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.about-us strong {
+  color: #00796b;
 }
 
 /* Responsive Styling */
